@@ -1,13 +1,16 @@
 /* TODO: Label selector type */
+/* selecting entire page, setting font-family attribute's value to  */
 * {
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   }
 
 /* TODO: Label selector type */
+/* selecting the body and setting its background color to lemonchiffon */
 body {
   background-color: lemonchiffon;
 }
 
+/* selecting the header tag AND footer tag */
 header,
 footer {
   width: 100%;
@@ -17,17 +20,19 @@ footer {
   background-color: #191970;
 }
 
+/* selecting the figure tag and setting a width */
 figure {
   width: 200px;
   background-color: #f0ead6;
 }
 
 /* TODO: Label selector type */
-.highlighted-text {
-  font-weight: bolder;
+/* selecting CLASS highlighted-text change font weight to be bold */
+.\.highlighted-text {
+  font-weight: 100;
 }
 
-/* TODO: Label selector type */
+/* TODO: Label selector type id - contact-section changes background color to  */
 #contact-section {
   background-color: #f0ead6;
 }
