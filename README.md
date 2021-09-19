@@ -12,6 +12,6 @@ This repository contains the curriculum material, your "textbook" for the bootca
 - To UPDATE your local cloned repository weekly, while in the uci-irv... directory in the terminal on your machine, type ```git pull``` to download(pull) the latest changes to your machine.
 
 ## Resources
-Here are some important resources for your success -
+Here are some important resources for your success - [https://uci-resources.netlify.app](https://uci-resources.netlify.app).
 
 ## More Later
