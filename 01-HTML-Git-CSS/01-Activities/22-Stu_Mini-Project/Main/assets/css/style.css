@@ -106,6 +106,7 @@ button {
 /* Class Selectors */
 .text-center {
   text-align: center;
+  color: purple;
 }
 
 .text-right {
