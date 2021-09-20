@@ -16,8 +16,6 @@ This repository contains the curriculum material, your "textbook" for the bootca
 
 ## Resources
 
-Here are some important resources for your success -
-
-- [Resources](https://uci-resources.netlify.app)
+Here are some important resources for your success - [https://uci-resources.netlify.app](https://uci-resources.netlify.app).
 
 ## More Later
