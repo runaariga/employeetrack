@@ -1,10 +1,11 @@
-/* create custom CSS variables (also called custom properties) and apply them to the root of the page, making them accessible to all other CSS */
 :root {
   /* declare a variable with `--` syntax */
-  --dark: #13293d;
-  --light: #fff;
-  --navlink-color: #b9c6ae;
+  --app-primary: red;
+  --light: blue;
+  --primary-: #b9c6ae;
+  --font-size-main: 50px;
 }
+/* create custom CSS variables (also called custom properties) and apply them to the root of the page, making them accessible to all other CSS */
 
 body {
   display: flex;
@@ -31,8 +32,8 @@ h2 {
   font-size: 250%;
 }
 
-a[href*='.css']::after {
-  content: '📝';
+a[href*=".css"]::after {
+  content: "📝";
   display: inline-block;
   margin-left: 3px;
 }
@@ -68,7 +69,7 @@ article {
 
 article p {
   margin: 2% 0;
-  font-size: 110%;
+  font-size: var(--font-size-main);
 }
 
 article ul {

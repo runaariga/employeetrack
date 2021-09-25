@@ -29,7 +29,7 @@ nav ul {
 }
 
 nav a {
-  color: #b9C6ae;
+  color: #b9c6ae;
   font-weight: bold;
   text-decoration: none;
 }
@@ -73,7 +73,8 @@ aside h2 {
   font-size: 150%;
 }
 
-input, button {
+input,
+button {
   width: 100%;
   margin: 2% 0;
   padding: 1%;
@@ -88,9 +89,18 @@ footer {
 }
 
 /* TODO: Add styles to display and hide the resource links */
+.resource-item {
+  display: none;
+}
+
+/* use hover pseudoclass and show the resource links */
+.resources:hover ul li {
+  display: block;
+}
 
 @media screen and (max-width: 768px) {
-  header, main {
+  header,
+  main {
     flex-direction: column;
   }
 

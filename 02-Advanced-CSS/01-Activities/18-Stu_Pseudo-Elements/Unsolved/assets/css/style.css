@@ -60,6 +60,28 @@ article p {
 }
 
 /* TODO: Style the keyword - underline, black text, grab cursor */
+.css-keyword {
+  cursor: grab;
+  text-decoration: underline;
+  color: black;
+  position: relative;
+}
+
+.css-keyword::before {
+  content: "Commonly known as CSS.";
+  display: none;
+  padding: 1em;
+  background: #13293d;
+  border: lightblue 2px solid;
+  color: white;
+  position: absolute;
+  top: 30px;
+  left: 0;
+}
+
+.css-keyword:hover::before {
+  display: block;
+}
 
 /* TODO: Position tooltip above the keyword, same color as header and nav links, no border-radius, smaller font size */
 
@@ -122,4 +144,9 @@ footer {
     width: 100%;
     text-align: center;
   }
+}
+
+.hero {
+  height: 15vh;
+  background-color: turquoise;
 }

@@ -65,8 +65,13 @@ article li {
 }
 
 /* Use :nth-child() to select every even list item */
-article ul li:nth-child(even) {
+article ul li:nth-child(odd) {
   background-color: #b9c6ae;
+  color: #13293d;
+}
+
+article ul li:nth-child(even) {
+  background-color: goldenrod;
   color: #13293d;
 }
 

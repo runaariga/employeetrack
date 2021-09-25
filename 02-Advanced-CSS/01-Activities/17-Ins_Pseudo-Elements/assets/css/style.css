@@ -20,9 +20,15 @@ h1 {
 /* Added the rest of the header text */
 h1::after {
   font-family: Impact;
-  content: 'Pseudo Elements';
+  content: "Pseudo Elements";
   color: #8ac4ff;
   margin-left: 5px;
+}
+
+h1::before {
+  font-family: Arial, Helvetica, sans-serif;
+  content: "WOOHOO I DID IT!";
+  color: red;
 }
 
 h2 {
@@ -38,7 +44,7 @@ h3 {
 /* Added asterisk before every h3 heading */
 h3::before {
   font-family: Impact;
-  content: '\273A';
+  content: "\273A";
   color: #772014;
   margin-right: 5px;
 }
@@ -46,7 +52,7 @@ h3::before {
 /* Added symbols before and after the nav links */
 nav li::before,
 nav li::after {
-  content: '\2766';
+  content: "\2766";
   color: #8ac4ff;
   padding: 1%;
   font-family: cursive;
@@ -59,7 +65,7 @@ nav ul {
 }
 
 nav a {
-  color: #b9C6ae;
+  color: #b9c6ae;
   font-weight: bold;
   text-decoration: none;
 }
@@ -120,7 +126,8 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-  header, main {
+  header,
+  main {
     flex-direction: column;
   }
 

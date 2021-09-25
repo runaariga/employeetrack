@@ -1,0 +1,32 @@
+:root {
+  --main-color: rgb(206, 187, 249);
+  --secondary-color: rgb(166, 114, 10);
+  --offset-color: rgb(199, 238, 209);
+}
+
+header {
+  text-align: center;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+section {
+  width: 30%;
+  margin: 0 auto;
+  border: var(--secondary-color) 2px dashed;
+}
+
+section h2 {
+  border: var(--main-color) 2px solid;
+  width: 80%;
+  border-radius: 5px;
+  margin: 0 auto;
+  padding: 6px;
+  position: relative;
+  top: -1em;
+  background-color: var(--offset-color);
+}

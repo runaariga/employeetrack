@@ -69,6 +69,18 @@ footer {
 }
 
 /* TODO: Add code here to select all <a> elements that link to a file with a `.css` extension */
+/* a[href$=".css"]::after {
+  content: "👨‍✈️";
+} */
+
+ul li:nth-child(1) a[href="https://developer.mozilla.org.css/n-US/docs/Web/CSS"]::after
+{
+  content: "👨‍✈️";
+}
+
+ul li:nth-child(3) a[href$=".css"]::after {
+  content: "🧑‍🚀";
+}
 
 @media screen and (max-width: 768px) {
   header {
