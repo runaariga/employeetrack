@@ -1,7 +1,9 @@
 console.log(this);
 
+//did work on saturday
+
 function helloThis() {
-  console.log('Inside this function, this is ' + this);
+  console.log("Inside this function, this is " + this);
 }
 
 var child = {
@@ -12,7 +14,7 @@ var child = {
 };
 
 var investor = {
-  name: 'Cash Saver',
+  name: "Cash Saver",
   investment: {
     initialInvestment: 5000,
     investmentGrowth: function () {
