@@ -1,5 +1,7 @@
 console.log(this);
 
+//uh oh it's broken!
+
 function helloThis() {
   console.log('Inside this function, this is ' + this);
 }
