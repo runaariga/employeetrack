@@ -1,0 +1,13 @@
+/* write your css here */
+/* you can use your own color theme or the same one as the solution */
+:root {
+  --blue: #2980b9;
+  --lightblue: #3498db;
+  --light: #ecf0f1;
+  --darkblue: #2c3e50;
+  --red: #e74c3c;
+}
+
+.header {
+  background-color: var(--darkblue);
+}
