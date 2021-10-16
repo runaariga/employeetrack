@@ -11,3 +11,8 @@
 .header {
   background-color: var(--darkblue);
 }
+
+thead {
+  background-color: var(--red);
+  color: white;
+}
