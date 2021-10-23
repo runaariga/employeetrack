@@ -13,6 +13,18 @@ textarea {
   padding: 10px;
 }
 
+.past {
+  background: green;
+}
+
+.present {
+  background: blue;
+}
+
+.future {
+  background: red;
+}
+
 .jumbotron {
   text-align: center;
   background-color: transparent;
