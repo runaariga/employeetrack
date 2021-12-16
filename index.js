@@ -22,14 +22,14 @@ const promptMessages = {
 const connection = mysql.createConnection({
     host: 'localhost',
 
-    // Your port; if not 3306
-    port: 3306,
+    port: 8080,
 
     // Your username
     user: 'root',
 
+
     // Your password
-    password: 'chargers619',
+    password: '123456',
     database: 'employees'
 });
 
