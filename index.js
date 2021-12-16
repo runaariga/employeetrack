@@ -5,11 +5,7 @@ const inquirer = require('inquirer');
 const fs = require('fs')
 require('console.table');
 
-console.table([
-    {
-        
-    }
-])
+
 
 const promptMessages = {
     viewAllEmployees: "View All Employees",
